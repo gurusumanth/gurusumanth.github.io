@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru Sumanth | Portfolio</title>
+    <meta name="description" content="Professional Portfolio of Guru Sumanth - Software Engineer & Full-Stack Developer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-symbol">&lt;</span>GS<span class="logo-symbol">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-glow">Ready to Build</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Guru Sumanth</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer & Full Stack Developer</h2>
+                    <p class="hero-description">
+                        I craft high-performance, responsive web applications and real-time financial portals. Passionate about clean architecture, sleek UX, and robust backend engineering.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right icon-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sumanth-g-2892b7285/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:sumanth.guru@example.com" class="social-icon" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="image-border-glow">
+                        <img src="avatar.jpg" alt="Guru Sumanth Avatar" class="hero-avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Driven by Logic, Focused on Impact</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <p>
+                            I am a software developer with a strong foundation in modern web architectures and logic design. I enjoy turning complex data flows and backend calculations into fluid, engaging, and fast frontend experiences.
+                        </p>
+                        <p>
+                            My development journey includes building real-time collaboration tools, interactive financial dashboards, and deploying containers behind secure gateways. I approach challenges with a systems-oriented mindset, ensuring reliability at every scale.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Commitment</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Core Techs</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <h3 class="card-subtitle">My Philosophy</h3>
+                        <p class="card-quote">"Simplicity is the ultimate sophistication. Clean code, scalable infrastructure, and premium user experience are non-negotiable."</p>
+                        <ul class="about-list">
+                            <li><i class="fa-solid fa-check check-icon"></i> Efficient algorithms & clean state management.</li>
+                            <li><i class="fa-solid fa-check check-icon"></i> Optimized deployments & Docker integration.</li>
+                            <li><i class="fa-solid fa-check check-icon"></i> User-centric responsive design with modern tools.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Skills</span>
+                    <h2 class="section-title">My Tech Stack</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Category: Frontend -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon text-cyan"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item"><i class="fa-brands fa-react text-cyan"></i> React</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-square-js text-yellow"></i> JavaScript (ES6+)</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-scroll text-blue"></i> TypeScript</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-bolt text-purple"></i> Vite</span>
+                            <span class="skill-tag-item"><i class="fa-brands fa-html5 text-orange"></i> HTML5</span>
+                            <span class="skill-tag-item"><i class="fa-brands fa-css3-alt text-blue"></i> CSS3</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-wind text-teal"></i> Tailwind CSS</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Category: Backend -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server category-icon text-green"></i>
+                            <h3>Backend & Database</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item"><i class="fa-brands fa-node-js text-green"></i> Node.js</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-gears text-gray"></i> Express.js</span>
+                            <span class="skill-tag-item"><i class="fa-brands fa-python text-blue"></i> Python</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-database text-blue"></i> PostgreSQL</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-network-wired text-purple"></i> RESTful APIs</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Category: DevOps -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cubes category-icon text-indigo"></i>
+                            <h3>DevOps & Workflows</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item"><i class="fa-brands fa-docker text-blue"></i> Docker & Compose</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-server text-green"></i> Nginx Config</span>
+                            <span class="skill-tag-item"><i class="fa-solid fa-cloud text-orange"></i> Cloudflare Tunnels</span>
+                            <span class="skill-tag-item"><i class="fa-brands fa-git-alt text-orange"></i> Git Version Control</span>
+                            <span class="skill-tag-item"><i class="fa-brands fa-github text-white"></i> GitHub Actions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                </div>
+                
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="financial">Financial Apps</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+                
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project 1: GK Finserv -->
+                    <div class="project-card" data-category="financial fullstack">
+                        <div class="project-image-wrapper">
+                            <div class="project-glow"></div>
+                            <div class="project-category-badge">Real-Time App</div>
+                            <div class="project-mock-ui">
+                                <div class="mock-header">
+                                    <span class="mock-dot red"></span>
+                                    <span class="mock-dot yellow"></span>
+                                    <span class="mock-dot green"></span>
+                                    <span class="mock-title">GK Finserv - Live Auction</span>
+                                </div>
+                                <div class="mock-body">
+                                    <div class="mock-stat-grid">
+                                        <div class="mock-stat">
+                                            <span class="lbl">Chit Value</span>
+                                            <span class="val">₹1,00,000</span>
+                                        </div>
+                                        <div class="mock-stat">
+                                            <span class="lbl">Highest Bid</span>
+                                            <span class="val highlight">₹38,000</span>
+                                        </div>
+                                    </div>
+                                    <div class="mock-bidding-area">
+                                        <div class="mock-btn">+0.1%</div>
+                                        <div class="mock-btn">+0.2%</div>
+                                        <div class="mock-btn highlight">Place Bid</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">GK Finserv</h3>
+                            <p class="project-desc">
+                                A real-time Chit Fund Auction and Portfolio Management system. Features real-time state synchronization, modular user portals, and detailed billing invoice generation.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Docker</span>
+                                <span>Nginx</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/chiranjeevigundu/gk-financial-dev-app2" target="_blank" rel="noopener noreferrer" class="project-link-item">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Cloudflare Nginx Gateway -->
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-image-wrapper">
+                            <div class="project-glow"></div>
+                            <div class="project-category-badge">DevOps</div>
+                            <div class="project-mock-ui flex-center">
+                                <div class="network-diagram">
+                                    <div class="node"><i class="fa-solid fa-globe text-cyan"></i></div>
+                                    <div class="connector dotted"></div>
+                                    <div class="node"><i class="fa-solid fa-shield text-purple"></i></div>
+                                    <div class="connector dotted"></div>
+                                    <div class="node"><i class="fa-solid fa-server text-green"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Secure Nginx Gateway</h3>
+                            <p class="project-desc">
+                                Automated web application deployment scheme using Docker Compose, Nginx reverse proxy routing, and Cloudflare zero-trust tunnels.
+                            </p>
+                            <div class="project-tech">
+                                <span>Docker Compose</span>
+                                <span>Cloudflare</span>
+                                <span>Nginx</span>
+                                <span>Bash</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link-item disabled">
+                                    <i class="fa-solid fa-lock"></i> Internal Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Connect</span>
+                    <h2 class="section-title">Start a Conversation</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Let's collaborate!</h3>
+                        <p>
+                            Have a project in mind, need a full-stack engineer, or just want to chat about development architecture? Reach out through any of these channels.
+                        </p>
+                        
+                        <div class="contact-info-list">
+                            <div class="contact-info-card">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-text">
+                                    <span class="info-label">Email Me</span>
+                                    <a href="mailto:sumanth.guru@example.com" class="info-val">sumanth.guru@example.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-card">
+                                <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="info-text">
+                                    <span class="info-label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/sumanth-g-2892b7285/" target="_blank" rel="noopener noreferrer" class="info-val">sumanth-g-2892b7285</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" required placeholder="John Doe">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" required placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="5" required placeholder="Hello! I wanted to talk about..."></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                                Send Message <i class="fa-solid fa-paper-plane icon-right"></i>
+                            </button>
+                        </form>
+                        <div class="form-success-msg" id="formSuccess">
+                            <i class="fa-solid fa-circle-check success-icon"></i>
+                            <h4>Message Sent!</h4>
+                            <p>Thank you for reaching out. I'll get back to you shortly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Guru Sumanth. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/sumanth-g-2892b7285/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
